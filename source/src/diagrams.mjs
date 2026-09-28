@@ -1,0 +1,22 @@
+const arrow = id => `<defs><marker id="${id}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#527792" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>`;
+
+export function systemsDiagram(){return adaptationDiagram().replace('<figure class="concept-figure adaptation-figure">','<figure class="concept-figure adaptation-figure home-concept-figure" id="human-water-landscape">');}
+export function adaptationDiagram(){return `<figure class="concept-figure adaptation-figure">
+  <div class="climate-context"><span class="eyebrow">IN A CHANGING CLIMATE</span><p>Shifting temperature, precipitation, and extremes</p></div>
+  <svg class="diagram-wide" viewBox="0 0 1040 420" role="img" aria-labelledby="adaptation-title adaptation-desc">
+    <title id="adaptation-title">From human impacts to climate adaptation</title>
+    <desc id="adaptation-desc">In a changing climate, human activities alter land, water, and emissions. Interacting Earth systems influence water security, flooding, ecosystem resilience, and human health. Understanding these feedbacks informs adaptation in planning, infrastructure, and ecosystem stewardship, which changes human practices.</desc>
+    ${arrow('adaptation-arrow')}
+    <rect x="25" y="20" width="350" height="140" rx="23" fill="#fff"/>
+    <rect x="665" y="20" width="350" height="140" rx="23" fill="#e5eef8"/>
+    <rect x="665" y="270" width="350" height="130" rx="23" fill="#fff"/>
+    <rect x="25" y="270" width="350" height="130" rx="23" fill="#1d3548"/>
+    <g class="svg-title"><text x="51" y="59">Human activities</text><text x="691" y="59">Earth system responses</text><text x="691" y="309">Consequences for society</text><text x="51" y="309" fill="#fff">Adaptation</text></g>
+    <g class="svg-copy"><text x="51" y="96"><tspan x="51">Cities, land use, agriculture</tspan><tspan x="51" dy="28">Water &amp; wastewater management</tspan></text><text x="691" y="96"><tspan x="691">Atmosphere · water · land · life</tspan><tspan x="691" dy="28">Hydrologic &amp; climate feedbacks</tspan></text><text x="691" y="346"><tspan x="691">Water security, flooding</tspan><tspan x="691" dy="27">Ecosystem resilience &amp; health</tspan></text><text x="51" y="346" fill="#e3edf5"><tspan x="51">Informed planning &amp; infrastructure</tspan><tspan x="51" dy="27">Ecosystem stewardship</tspan></text></g>
+    <g fill="none" stroke="#527792" stroke-width="1.8" marker-end="url(#adaptation-arrow)"><path d="M393 101 H647"/><path d="M840 178 V251"/><path d="M647 335 H393"/><path d="M200 251 V178"/></g>
+    <g class="svg-label" text-anchor="middle"><text x="520" y="65"><tspan x="520">Alter land, water</tspan><tspan x="520" dy="23">&amp; emissions</tspan></text><text x="520" y="313">Inform decisions</text><text x="861" y="210" text-anchor="start"><tspan x="861">Changing</tspan><tspan x="861" dy="22">risks</tspan></text><text x="221" y="210" text-anchor="start"><tspan x="221">Change</tspan><tspan x="221" dy="22">practices</tspan></text></g>
+    <text x="520" y="201" text-anchor="middle" class="svg-center"><tspan x="520">Understand the feedbacks.</tspan><tspan x="520" dy="28">Inform a resilient future.</tspan></text>
+  </svg>
+  <div class="diagram-mobile adaptation-mobile"><div class="diagram-node"><h3>Human activities</h3><p>Cities, land use, agriculture<br>Water &amp; wastewater management</p></div><p class="mobile-connector">↓ Alter land, water &amp; emissions</p><div class="diagram-node earth-node"><h3>Earth system responses</h3><p>Atmosphere · water · land · life<br>Hydrologic &amp; climate feedbacks</p></div><p class="mobile-connector">↓ Change environmental risks</p><div class="diagram-node"><h3>Consequences for society</h3><p>Water security, flooding<br>Ecosystem resilience &amp; health</p></div><p class="mobile-connector">↓ Inform decisions</p><div class="diagram-node adaptation-node"><h3>Adaptation</h3><p>Planning &amp; infrastructure<br>Ecosystem stewardship</p></div><p class="mobile-return">↺ Adaptation changes human practices</p></div>
+  <figcaption>Conceptual schematic. Human impacts and environmental feedbacks motivate adaptation; direct land and water effects interact with climate-driven change. <a href="https://www.ipcc.ch/report/ar6/wg2/chapter/technical-summary/">Climate &amp; adaptation background ↗</a></figcaption>
+</figure>`;}
