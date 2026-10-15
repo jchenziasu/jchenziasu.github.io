@@ -10,6 +10,7 @@ Jiangzi Chen 的个人学术网站，展示教育背景、研究经历、发表�
 - `assets/` 保存照片、研究图件和简历；`styles.css` 保存样式。
 - `source/src/profile.mjs` 保存个人资料；`source/src/details.mjs` 保存详细经历与助教信息。
 - `source/src/diagrams.mjs` 和 `source/src/research-results.mjs` 保存示意图及研究结果内容。
+- `source/src/ai-research.mjs` 保存 AI 辅助科研方向的介绍，使用 `assets/ai-research-workflow.jpg` 中提供的原始示意图。
 - `.nojekyll` 确保 GitHub Pages 直接提供这些静态文件。
 
 修改文字后，在安装了 Node.js 的电脑上，于项目目录运行：

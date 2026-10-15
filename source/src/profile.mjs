@@ -5,7 +5,7 @@ export default {
   role: "M.S. student",
   institution: "Arizona State University",
   biography: [
-    "I am a master's student in Civil, Environmental and Sustainable Engineering at Arizona State University. I use GIS, remote sensing, and environmental modeling to study how landscapes change and how those changes relate to ecological resilience and environmental health.",
+    "I am a master's student in Civil, Environmental and Sustainable Engineering at Arizona State University. I use GIS, remote sensing, hydrological and meteorological models, and AI tools to better understand interactions among Earth's atmosphere, hydrosphere, lithosphere, and biosphere.",
     "At ASU, I work with Ruijie Zeng on spatial analysis and methods for identifying potentially unpermitted on-site wastewater treatment facilities in rural Arizona. Previously, at Nanjing University of Information Science and Technology, I studied coastal resilience, tidal creek dynamics, and ecological water use, and led a project linking land-use change with habitat quality. I am a coauthor of a 2024 paper in Land on coastal ecological resilience."
   ],
   interests: ["GIS & remote sensing", "Coastal resilience & land-use change", "Water & environmental health", "AI for Hydrometeorological Modeling"],
