@@ -94,7 +94,7 @@ export default {
       detail: ""
     }
   ],
-  skills: ["ArcGIS", "ENVI", "Google Earth Engine", "MATLAB", "FRAGSTATS", "PLUS", "InVEST"],
+  skills: ["ArcGIS", "ENVI", "Google Earth Engine (GEE)", "Python", "MATLAB", "FRAGSTATS", "PLUS", "InVEST"],
   email: "jchen722@asu.edu",
   links: [],
   cvUrl: "assets/Jiangzi-Chen-CV.pdf"
