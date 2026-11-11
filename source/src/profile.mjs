@@ -5,11 +5,31 @@ export default {
   role: "M.S. student",
   institution: "Arizona State University",
   biography: [
-    "I am a master's student in Civil, Environmental and Sustainable Engineering at Arizona State University. I use GIS, remote sensing, hydrological and meteorological models, and AI tools to better understand interactions among Earth's atmosphere, hydrosphere, lithosphere, and biosphere.",
-    "At ASU, I work with Ruijie Zeng on spatial analysis and methods for identifying potentially unpermitted on-site wastewater treatment facilities in rural Arizona. Previously, at Nanjing University of Information Science and Technology, I studied coastal resilience, tidal creek dynamics, and ecological water use, and led a project linking land-use change with habitat quality. I am a coauthor of a 2024 paper in Land on coastal ecological resilience."
+    "I am an M.S. student in Civil, Environmental and Sustainable Engineering at Arizona State University, working with Professor Ruijie Zeng. I received my B.S. in Physical Geography and Resource Environment from Nanjing University of Information Science and Technology in 2025.",
+    "My research uses data and models to understand how climate change and human activities reshape water and environmental systems. I combine GIS, remote sensing, hydrological and meteorological models, and AI tools to investigate interactions among the atmosphere, hydrosphere, lithosphere, and biosphere.",
+    "At ASU, I am developing an agentic AI system that automates routine modeling work, including model configuration, execution, and input/output format alignment. The system currently runs SWAT and VIC, with the goal of freeing more time for scientific questions and interpretation.",
+    "I also work on detecting fine-scale hydrologic features, such as sinkholes and drainage networks, from high-resolution LiDAR-derived elevation data. Alongside this work, I use GIS to identify potentially unpermitted wastewater treatment facilities in rural Arizona through a project with the Arizona Department of Environmental Quality (ADEQ).",
+    "Before ASU, I used remote sensing and GIS to study coastal land use, habitat quality, and ecological resilience in China under different SSP–RCP scenarios. I am a coauthor of a 2024 paper in Land on coastal ecological resilience."
   ],
-  interests: ["GIS & remote sensing", "Coastal resilience & land-use change", "Water & environmental health", "AI for Hydrometeorological Modeling"],
+  phdSearch: "I am looking for a PhD position starting in Fall 2027.",
+  interests: ["Agentic AI for hydrological and atmospheric modeling", "Global change and the terrestrial water cycle", "Remote sensing, GIS, and LiDAR for environmental change", "Urban heat, air quality, and water security in dryland cities"],
   research: [
+    {
+      title: "Fine-scale hydrologic feature detection from LiDAR-derived DEMs",
+      period: "Oct 2026 – Present",
+      affiliation: "Arizona State University",
+      supervisor: "Ruijie Zeng",
+      contribution: "I am redesigning experiments from a prior doctoral study using PDE-based anisotropic diffusion to smooth sub-meter LiDAR-derived DEMs and detect sinkholes and drainage networks. I am investigating an iteration threshold to improve generalization while preserving terrain edges.",
+      tags: ["LiDAR", "DEM analysis", "Anisotropic diffusion"]
+    },
+    {
+      title: "Agentic AI for hydrological and atmospheric modeling workflows",
+      period: "Sep 2026 – Present",
+      affiliation: "Independent project · Arizona State University",
+      support: "Ruijie Zeng",
+      contribution: "I conceived and lead the development of an agentic AI system for model configuration, execution, and input/output format alignment. It currently runs SWAT and VIC; I have also gained hands-on experience with WRF and Noah-MP workflows and data structures.",
+      tags: ["Agentic AI", "SWAT", "VIC"]
+    },
     {
       title: "Identifying on-site wastewater treatment facilities",
       period: "Jan 2026 – Present",
@@ -84,7 +104,7 @@ export default {
     {
       institution: "Arizona State University",
       degree: "M.S. in Civil, Environmental and Sustainable Engineering",
-      period: "Aug 2025 – Present",
+      period: "Aug 2025 – Expected May 2027",
       detail: ""
     },
     {
@@ -94,7 +114,23 @@ export default {
       detail: ""
     }
   ],
-  skills: ["ArcGIS", "ENVI", "Google Earth Engine (GEE)", "Python", "MATLAB", "FRAGSTATS", "PLUS", "InVEST"],
+  skills: ["ArcGIS", "ENVI", "Google Earth Engine (GEE)", "Python", "MATLAB", "FRAGSTATS", "PLUS", "InVEST", "SWAT", "VIC", "LiDAR-derived DEM analysis", "Agentic AI system development"],
+  skillGroups: [
+    {title: "GIS & remote sensing", items: ["ArcGIS", "ENVI", "Google Earth Engine (GEE)", "FRAGSTATS", "LiDAR-derived DEM analysis"]},
+    {title: "Environmental modeling", items: ["PLUS", "InVEST", "SWAT", "VIC"], note: "Hands-on experience with WRF and Noah-MP workflows and data structures."},
+    {title: "Programming & AI", items: ["Python", "MATLAB", "Agentic AI system development"]}
+  ],
+  conference: {
+    title: "Estimation of Unpermitted Wastewater Treatment Facility (OWTF) in Rural Arizona for Environmental Health",
+    authors: "Jiangzi Chen and Ruijie Zeng",
+    meeting: "AGU Fall Meeting 2026",
+    date: "December 10, 2026",
+    dateISO: "2026-12-10",
+    location: "San Francisco, California",
+    session: "H43P · Water Quality and Watersheds: From Scientific Innovations to Actions II",
+    status: "Accepted poster · Upcoming",
+    url: "https://www.agu.org/annual-meeting"
+  },
   email: "jchen722@asu.edu",
   links: [],
   cvUrl: "assets/Jiangzi-Chen-CV.pdf"

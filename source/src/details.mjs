@@ -7,7 +7,7 @@ export const researchDetails = [
   {id:'habitat-quality',label:'Land-use & habitat modeling',status:'Project lead',area:'China’s coastal zone · 2020–2050 scenarios',focus:'I led a project coupling PLUS and InVEST to examine coastal land-use change and habitat quality. The project considered changes from 2020 to 2050 under three SSP–RCP scenarios.',points:['Propose an integrated modeling approach coupling PLUS and InVEST.','Project coastal land-use patterns under SSP126, SSP245, and SSP585.','Quantitatively assess habitat quality under the three scenarios.','Evaluate drivers of habitat-quality change and the contribution of land-cover changes to degradation.']}
 ];
 export const educationDetails = [
-  'I am pursuing a Master of Science in Civil, Environmental and Sustainable Engineering at Arizona State University. My current research with Ruijie Zeng uses GIS-based spatial analysis to examine on-site wastewater treatment facilities in Arizona, connecting geographical and environmental analysis with questions of rural environmental health.',
+  'I am pursuing a Master of Science in Civil, Environmental and Sustainable Engineering at Arizona State University, with graduation expected in May 2027. My work with Ruijie Zeng spans agentic workflows for hydrological and atmospheric modeling, fine-scale terrain analysis using LiDAR-derived DEMs, and GIS-based identification of potential on-site wastewater facilities through the ADEQ project.',
   'I earned my Bachelor of Science in Physical Geography and Resource Environment in 2025. My undergraduate research covered coastal ecological resilience, invasive vegetation and tidal creek dynamics, regional resilience, and ecological water use. I also led a project combining PLUS and InVEST to investigate coastal land-use change and habitat quality.'
 ];
 export const researchMethods = [
@@ -33,9 +33,9 @@ export const teachingExperience = {
   ]
 };
 export const interestDetails = [
-  ['GIS & remote sensing','Spatial analysis and Earth observation for understanding environmental change.'],
-  ['Coastal resilience & land-use change','Connecting land-use and habitat modeling with the resilience of coastal ecosystems under human and environmental pressures.'],
-  ['Water & environmental health','Studying ecological water use and wastewater infrastructure to understand connections between human activity and the water environment.'],
-  ['AI for Hydrometeorological Modeling','I am interested in exploring how AI can complement physical understanding to model interactions between weather, climate, and water.']
+  ['Agentic AI for hydrological and atmospheric modeling','Developing agentic systems for routine modeling tasks, including model configuration, execution, and input/output alignment.'],
+  ['Global change and the terrestrial water cycle','Understanding how climate and human activities influence terrestrial water processes, and how changing water conditions shape environmental decisions.'],
+  ['Remote sensing, GIS, and LiDAR for environmental change','Using spatial data and Earth observation to examine environmental change, including fine-scale hydrologic features in LiDAR-derived terrain.'],
+  ['Urban heat, air quality, and water security in dryland cities','I am interested in interactions among urban heat, air quality, and water security in dryland cities, and their implications for adaptation.']
 ];
 

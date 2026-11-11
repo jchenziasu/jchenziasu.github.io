@@ -32,3 +32,18 @@ h1,h2,h3{overflow-wrap:anywhere}
 @media(max-width:760px){.education-heading{padding-top:44px}.education-heading .eyebrow{margin-bottom:22px}.teaching-card h3{font-size:1.55rem}.cycle-label{font-size:.8125rem}.water-cycle-figure figcaption{padding:17px 20px}}
 @media(max-width:460px){.water-cycle-figure{border-radius:16px}.cycle-label{font-size:.75rem}.cycle-label.human{display:none}.cycle-label.storage{left:32%;bottom:2%}.cycle-label.recharge{display:none}}
 .home-concept-figure{margin-top:42px}@media(max-width:760px){.home-concept-figure{margin-top:30px}}
+
+/* Current research, dated updates, and PhD availability. */
+.phd-notice{margin-top:24px;padding:14px 18px;border-radius:14px;background:#eef5fc;color:#205b86;font-size:1rem;line-height:1.55;max-width:640px}
+.news-section{display:grid;grid-template-columns:280px minmax(0,1fr);gap:76px;border-top:1px solid var(--line);padding:62px 0 70px}
+.news-heading h2{font-size:2.4rem;line-height:1.18}.news-heading .eyebrow{margin-bottom:16px}
+.news-list{list-style:none;padding:0;margin:0}.news-list li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:26px;padding:25px 0;border-top:1px solid var(--line)}
+.news-list li:first-child{border:0;padding-top:0}.news-list li:last-child{padding-bottom:0}
+.news-date{display:flex;flex-direction:column;align-items:start;gap:9px;font-size:.875rem;color:var(--muted);padding-top:2px}.news-date time{white-space:nowrap}.news-date .status-badge{font-size:.7rem;padding:3px 9px}
+.news-list h3{font-size:1.2rem;line-height:1.4;letter-spacing:-.02em}.news-list p{font-size:.9375rem;color:#595960;line-height:1.75;margin-top:10px}.news-list .text-link{font-size:.9375rem;margin-top:12px}
+.interest-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.interest-card h3{min-height:0;max-width:440px;font-size:1.45rem}.interest-card p{max-width:460px}.card-number{margin-bottom:28px}
+.skill-groups{display:grid;gap:30px}.skill-group h3{font-size:1rem;letter-spacing:0;margin-bottom:15px;line-height:1.4}.skill-note{font-size:.875rem;color:var(--muted);line-height:1.7;margin-top:14px}.skill-group .tool-list li{font-size:.9375rem;padding:10px 17px}
+#conference-presentations{scroll-margin-top:110px}.conference-card .publication-topline{flex-wrap:wrap}
+@media(max-width:1020px){.news-section{grid-template-columns:240px minmax(0,1fr);gap:45px}.news-list li{grid-template-columns:1fr;gap:10px}.news-date{flex-direction:row;align-items:center;gap:12px}}
+@media(max-width:760px){.phd-notice{grid-column:1/-1;margin:0}.news-section{grid-template-columns:1fr;gap:30px;padding:42px 0 45px}.news-heading h2{font-size:2rem}.news-heading h2 br{display:none}.news-list li{padding:23px 0}.interest-card h3{font-size:1.3rem}#conference-presentations{scroll-margin-top:135px}}
+@media(max-width:580px){.interest-grid{grid-template-columns:1fr}.interest-card h3{font-size:1.4rem}}
